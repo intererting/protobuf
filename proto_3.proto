@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "com.yly";
+option java_outer_classname = "Request";
+
+//message SearchRequest {
+//    string query = 1;
+//    int32 code = 2;
+//}
+
+message SearchRequest {
+
+    string query = 1;
+    int32 code = 2;
+}
